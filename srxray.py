@@ -63,9 +63,7 @@ def printJunosConfig(JunosConfig):
 
 
 def main():
-	printJunosConfig(loadJunosConfig("justgroups-set.conf"))
-	print("###")
-	printJunosConfig(loadJunosConfig("0ffnet-srx210-gw.conf"))
+	pass
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
