@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import openpyxl
 import logging
 import argparse
 
@@ -59,8 +58,6 @@ def printJunosConfig(JunosConfig):
 		for term in line:
 			print (term, end="")
 		print ()
-
-
 
 def main():
 	pass
